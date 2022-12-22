@@ -1,0 +1,42 @@
+.row {
+  max-width: 75rem;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+
+.row h2 {
+  padding: 0.9375rem 0;
+}
+
+.row-wrapper {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  gap: 0.6rem;
+  padding: 0.625rem;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+.row-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.row-img {
+  max-height: 100px;
+  width: 100%;
+  object-fit: contain;
+  transition: 0.4s ease-out;
+  cursor: pointer;
+}
+.row-img:hover {
+  transform: scale(1.08);
+}
+
+.row-large {
+  max-height: 230px;
+}
+
+.row-large:hover {
+  transform: scale(1.09);
+}
