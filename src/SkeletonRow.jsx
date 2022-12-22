@@ -9,7 +9,7 @@ const SkeletonRow = () => {
         <SkeletonElement type="title" />
       </div>
       <div className="row-wrapper">
-        {[1, 2].map((n) => (
+        {[1, 2, 3, 4, 5, 6, 7].map((n) => (
           <SkeletonElement key={n} type="rowposter" />
         ))}
       </div>

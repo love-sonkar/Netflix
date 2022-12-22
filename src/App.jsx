@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Navbar />
       <Banner />
       <Row

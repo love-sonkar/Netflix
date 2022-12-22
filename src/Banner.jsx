@@ -22,9 +22,6 @@ function Banner() {
     }
     fetchData();
   }, []);
-
-  console.log(movie);
-
   return (
     <>
       {!movie && <SkeletonBanner />}

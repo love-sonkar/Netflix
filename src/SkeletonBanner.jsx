@@ -4,7 +4,7 @@ import SkeletonElement from "./SkeletonElement";
 
 const SkeletonBanner = () => {
   return (
-    <div className="bannerSkeleton">
+    <div className="bannerSkeleton max-12">
       <SkeletonElement type="banner" />
       <div style={{ display: "flex" }}>
         <SkeletonElement type="button" />
