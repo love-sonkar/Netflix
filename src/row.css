@@ -24,7 +24,7 @@
   display: none;
 }
 .row-img {
-  max-height: 100px;
+  max-height: 160px;
   width: 100%;
   object-fit: contain;
   transition: 0.4s ease-out;
@@ -35,7 +35,7 @@
 }
 
 .row-large {
-  max-height: 230px;
+  max-height: 250px;
 }
 
 .row-large:hover {
