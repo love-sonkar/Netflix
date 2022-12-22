@@ -68,10 +68,9 @@ function Row({ title, fetchUrl, LargeRow }) {
                     LargeRow ? movie.poster_path : movie.backdrop_path
                   }`}
                   effect="blur"
-                  height="200px"
+                  height="100%"
                   width="150px"
                   placeholderSrc={demoimg}
-                  scrollPosition="X"
                 />
               );
             })}

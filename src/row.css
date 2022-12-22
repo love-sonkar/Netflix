@@ -10,9 +10,10 @@
 }
 
 .row-wrapper {
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
   overflow-y: hidden;
-  overflow-x: auto;
+  overflow-x: scroll;
   gap: 0.6rem;
   padding: 0.625rem;
   user-select: none;
