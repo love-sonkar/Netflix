@@ -1,6 +1,6 @@
-const API_KEY = "8c093bd3e3b1ca3788cee07474caf812";
+const API_KEY = import.meta.env.VITE_APP_TMDB_API;
 
-// https://api.themoviedb.org/3/movie/550?api_key=8c093bd3e3b1ca3788cee07474caf812
+// https://api.themoviedb.org/3/movie/550?api_key=
 
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
